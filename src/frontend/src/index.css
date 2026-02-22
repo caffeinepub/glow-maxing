@@ -1,0 +1,130 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+        --radius: 0.75rem;
+        
+        /* Glow Maxing Color System - Light Mode */
+        --background: 0.99 0.01 40;
+        --foreground: 0.2 0.02 40;
+        --card: 1 0 0;
+        --card-foreground: 0.2 0.02 40;
+        --popover: 1 0 0;
+        --popover-foreground: 0.2 0.02 40;
+        --primary: 0.65 0.18 35;
+        --primary-foreground: 0.99 0 0;
+        --secondary: 0.96 0.02 50;
+        --secondary-foreground: 0.2 0.02 40;
+        --muted: 0.96 0.01 40;
+        --muted-foreground: 0.5 0.02 40;
+        --accent: 0.75 0.15 45;
+        --accent-foreground: 0.99 0 0;
+        --destructive: 0.55 0.22 25;
+        --destructive-foreground: 0.99 0 0;
+        --border: 0.92 0.02 40;
+        --input: 0.92 0.02 40;
+        --ring: 0.75 0.15 45;
+        
+        /* Custom Glow Colors */
+        --glow-primary: 0.68 0.16 38;
+        --glow-accent: 0.78 0.14 48;
+        --glow-light: 0.98 0.01 45;
+        --glow-dark: 0.25 0.03 35;
+        --glow-bg: 0.97 0.02 42;
+        
+        --chart-1: 0.68 0.16 38;
+        --chart-2: 0.78 0.14 48;
+        --chart-3: 0.85 0.12 55;
+        --chart-4: 0.72 0.15 42;
+        --chart-5: 0.62 0.18 32;
+        
+        --sidebar: 0.99 0.01 40;
+        --sidebar-foreground: 0.2 0.02 40;
+        --sidebar-primary: 0.65 0.18 35;
+        --sidebar-primary-foreground: 0.99 0 0;
+        --sidebar-accent: 0.96 0.02 50;
+        --sidebar-accent-foreground: 0.2 0.02 40;
+        --sidebar-border: 0.92 0.02 40;
+        --sidebar-ring: 0.75 0.15 45;
+    }
+
+    .dark {
+        /* Glow Maxing Color System - Dark Mode */
+        --background: 0.15 0.02 35;
+        --foreground: 0.98 0.01 45;
+        --card: 0.2 0.03 35;
+        --card-foreground: 0.98 0.01 45;
+        --popover: 0.18 0.03 35;
+        --popover-foreground: 0.98 0.01 45;
+        --primary: 0.78 0.14 48;
+        --primary-foreground: 0.15 0.02 35;
+        --secondary: 0.25 0.03 38;
+        --secondary-foreground: 0.98 0.01 45;
+        --muted: 0.25 0.03 38;
+        --muted-foreground: 0.65 0.03 40;
+        --accent: 0.68 0.16 38;
+        --accent-foreground: 0.98 0.01 45;
+        --destructive: 0.55 0.22 25;
+        --destructive-foreground: 0.98 0.01 45;
+        --border: 0.3 0.03 38;
+        --input: 0.3 0.03 38;
+        --ring: 0.68 0.16 38;
+        
+        /* Custom Glow Colors - Dark Mode */
+        --glow-primary: 0.75 0.15 45;
+        --glow-accent: 0.82 0.13 52;
+        --glow-light: 0.95 0.02 48;
+        --glow-dark: 0.12 0.02 32;
+        --glow-bg: 0.18 0.03 36;
+        
+        --chart-1: 0.75 0.15 45;
+        --chart-2: 0.82 0.13 52;
+        --chart-3: 0.88 0.11 58;
+        --chart-4: 0.78 0.14 48;
+        --chart-5: 0.68 0.17 38;
+        
+        --sidebar: 0.18 0.03 35;
+        --sidebar-foreground: 0.98 0.01 45;
+        --sidebar-primary: 0.78 0.14 48;
+        --sidebar-primary-foreground: 0.15 0.02 35;
+        --sidebar-accent: 0.25 0.03 38;
+        --sidebar-accent-foreground: 0.98 0.01 45;
+        --sidebar-border: 0.3 0.03 38;
+        --sidebar-ring: 0.68 0.16 38;
+    }
+
+    * {
+        @apply border-border;
+    }
+    
+    body {
+        @apply bg-background text-foreground;
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;
+    }
+}
+
+@layer utilities {
+    .shadow-glow {
+        box-shadow: 0 4px 24px -2px oklch(var(--glow-accent) / 0.3);
+    }
+    
+    .shadow-glow-lg {
+        box-shadow: 0 8px 40px -4px oklch(var(--glow-accent) / 0.4);
+    }
+    
+    @keyframes shimmer {
+        0%, 100% {
+            background-position: 0% 50%;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+    }
+    
+    .animate-shimmer {
+        background-size: 200% 200%;
+        animation: shimmer 3s ease-in-out infinite;
+    }
+}

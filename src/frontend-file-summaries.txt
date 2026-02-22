@@ -1,0 +1,11 @@
+{
+  "frontend/src/App.tsx": "Main application component that renders the complete Glow Maxing product website with Hero, ProductBenefits, ResultsTimeline, ProductDetails, and Footer sections in a single-page layout.",
+  "frontend/src/components/Hero.tsx": "Hero section component featuring the Glow Maxing brand name with animated gradient text, 7-day results tagline, benefit highlights, and a call-to-action button with smooth scroll functionality.",
+  "frontend/src/components/ProductBenefits.tsx": "Product benefits section displaying three key features (radiant glow, blackhead removal, whitehead elimination) in a responsive card grid with icons and detailed descriptions.",
+  "frontend/src/components/ResultsTimeline.tsx": "Interactive 7-day transformation timeline showing daily progress with before/after imagery and detailed descriptions of expected results at each stage.",
+  "frontend/src/components/ProductDetails.tsx": "Comprehensive product information section with tabbed interface displaying ingredients, usage instructions, and specifications alongside product imagery and certification badges.",
+  "frontend/src/components/Footer.tsx": "Footer component with Glow Maxing branding, copyright information, and attribution link to caffeine.ai with proper UTM tracking parameters.",
+  "frontend/src/index.css": "Global styles implementing a warm, glowing beauty-themed color system using OKLCH colors with custom glow utilities, shadows, and animations for both light and dark modes.",
+  "frontend/tailwind.config.js": "Tailwind configuration extended with custom glow-themed colors, Inter font family, and design tokens matching the beauty product aesthetic.",
+  "frontend/src/hooks/useQueries.ts": "Empty hooks file as the backend has no methods; all content is static and rendered directly in frontend components."
+}

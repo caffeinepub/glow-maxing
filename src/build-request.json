@@ -1,0 +1,116 @@
+{
+  "kind": "build_request",
+  "title": "Create Glow Maxing beauty product website with detailed product information",
+  "projectName": "Glow Maxing",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-1",
+      "text": "Create a hero section prominently featuring the Glow Maxing product name, tagline highlighting the 7-day results promise, and a compelling call-to-action",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-1"
+        ],
+        "quotes": [
+          "I want website for a beauty product. And the name of product (glow maxing). product result in 7 dayes"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Hero section displays 'Glow Maxing' as the main product name",
+        "Clear mention of '7-day results' is visible in the hero area",
+        "Includes a prominent call-to-action button"
+      ]
+    },
+    {
+      "id": "REQ-2",
+      "text": "Create a detailed product benefits section showcasing how Glow Maxing delivers facial glow and removes blackheads and whiteheads",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-1"
+        ],
+        "quotes": [
+          "Glow in face and remove all black and witheheadss"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Section clearly lists facial glow enhancement as a key benefit",
+        "Section highlights blackhead removal capability",
+        "Section highlights whitehead removal capability",
+        "Benefits are presented with visual appeal and clear descriptions"
+      ]
+    },
+    {
+      "id": "REQ-3",
+      "text": "Implement a 7-day results timeline section that visually demonstrates the product's effectiveness progression from day 1 to day 7",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-1"
+        ],
+        "quotes": [
+          "product result in 7 dayes"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Timeline shows clear progression across 7 days",
+        "Each day includes description of expected results",
+        "Visual presentation makes the timeline easy to follow"
+      ]
+    },
+    {
+      "id": "REQ-4",
+      "text": "Create a comprehensive product details section with information about ingredients, usage instructions, and product specifications",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-1"
+        ],
+        "quotes": [
+          "Create a website full of details"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Includes detailed product information sections",
+        "Covers usage instructions",
+        "Presents information in an organized, scannable format"
+      ]
+    },
+    {
+      "id": "REQ-5",
+      "text": "Design a visually cohesive beauty and skincare themed interface with a fresh, clean aesthetic that emphasizes radiance and clarity, using warm glowing tones, soft gradients, and elegant typography throughout all sections",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-1"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Color scheme evokes freshness, glow, and skincare wellness",
+        "Typography is elegant and readable",
+        "Layout feels premium and trustworthy",
+        "Visual style is consistent across all sections"
+      ]
+    }
+  ],
+  "constraints": [],
+  "nonGoals": [
+    "E-commerce functionality or shopping cart",
+    "User accounts or authentication",
+    "Backend data storage for product information",
+    "Payment processing",
+    "Real customer testimonials or reviews system"
+  ],
+  "imageRequirements": {
+    "required": [
+      "Hero background image featuring glowing, radiant skin with soft bokeh lighting effect (hero-bg.dim_1920x1080.png)",
+      "Product packaging mockup for Glow Maxing showing elegant white and gold container (product-main.dim_800x800.png)",
+      "Before and after comparison showing skin transformation with visible glow improvement (before-after.dim_1200x600.png)",
+      "Icon representing facial glow with radiant light rays (glow-icon.dim_128x128.png)",
+      "Icon representing blackhead removal with clean pore illustration (blackhead-icon.dim_128x128.png)",
+      "Icon representing whitehead removal with smooth skin texture (whitehead-icon.dim_128x128.png)"
+    ],
+    "edits": []
+  }
+}

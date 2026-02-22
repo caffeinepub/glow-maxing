@@ -1,2 +1,3 @@
-# glow-maxing
-Exported from Caffeine project: Glow Maxing
+## Glow Maxing
+
+To run app build and run docker image: `docker build -t app . docker run -it --network host app`

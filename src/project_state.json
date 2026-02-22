@@ -1,0 +1,79 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 3,
+  "summary": "Beauty product website for 'Glow Maxing' - a skincare solution that delivers visible glow and removes blackheads and whiteheads in 7 days",
+  "architectural_notes": [
+    "Website for beauty/skincare product",
+    "Product name: Glow Maxing",
+    "Focus on detailed product information and benefits presentation"
+  ],
+  "known_issues": [],
+  "isFixRequest": false,
+  "imageRequirements": "## Required Images\n- Hero background image featuring glowing, radiant skin with soft bokeh lighting effect (hero-bg.dim_1920x1080.png)\n- Product packaging mockup for Glow Maxing showing elegant white and gold container (product-main.dim_800x800.png)\n- Before and after comparison showing skin transformation with visible glow improvement (before-after.dim_1200x600.png)\n- Icon representing facial glow with radiant light rays (glow-icon.dim_128x128.png)\n- Icon representing blackhead removal with clean pore illustration (blackhead-icon.dim_128x128.png)\n- Icon representing whitehead removal with smooth skin texture (whitehead-icon.dim_128x128.png)",
+  "existing_features": [
+    {
+      "id": "feature-create-a-hero-section-prominently-featuring-the-glow-maxing-product-name-tagline-highlighting-the-7-day-results-promise-and-a-compelling-call-to-action",
+      "title": "Create a hero section prominently featuring the Glow Maxing product name, tagline highlighting the 7-day results promise, and a compelling call-to-action",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-detailed-product-benefits-section-showcasing-how-glow-maxing-delivers-facial-glow-and-removes-blackheads-and-whiteheads",
+      "title": "Create a detailed product benefits section showcasing how Glow Maxing delivers facial glow and removes blackheads and whiteheads",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-a-7-day-results-timeline-section-that-visually-demonstrates-the-product-s-effectiveness-progression-from-day-1-to-day-7",
+      "title": "Implement a 7-day results timeline section that visually demonstrates the product's effectiveness progression from day 1 to day 7",
+      "reqIds": [
+        "REQ-3"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-comprehensive-product-details-section-with-information-about-ingredients-usage-instructions-and-product-specifications",
+      "title": "Create a comprehensive product details section with information about ingredients, usage instructions, and product specifications",
+      "reqIds": [
+        "REQ-4"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-design-a-visually-cohesive-beauty-and-skincare-themed-interface-with-a-fresh-clean-aesthetic-that-emphasizes-radiance-and-clarity-using-warm-glowing-tones-soft-gradients-and-elegant-typography-throughout-all-sections",
+      "title": "Design a visually cohesive beauty and skincare themed interface with a fresh, clean aesthetic that emphasizes radiance and clarity, using warm glowing tones, soft gradients, and elegant typography throughout all sections",
+      "reqIds": [
+        "REQ-5"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "Create detailed product website for Glow Maxing beauty product",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-2",
+      "summary": "Showcase 7-day results timeline",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-3",
+      "summary": "Display product benefits (glow enhancement, blackhead/whitehead removal)",
+      "reqIds": [],
+      "status": "pending"
+    }
+  ],
+  "gameProjectType": "none",
+  "projectName": "Glow Maxing",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}
